@@ -1,0 +1,58 @@
+@import url("./fonts.css");
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+button {
+border: none;
+background: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family:'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.title_1 {
+color: red;
+
+letter-spacing: 2px;
+}
+.title {
+    left: 136px;
+    top:196px;
+}
+.title_2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    width: 545px;
+}
+.title_3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    width:574px;
+    padding-top: 11px;
+    color: #6F7278;
+}
+.col-2{
+flex:5px;
+}
+.row__houses {
+    display: flex;
+    max-width: 1170px;
+    flex-wrap: wrap;
+   
+}
+.name {
+    text-align: center;
+}
+.name1 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+}
